@@ -8,7 +8,7 @@ from email.mime.multipart import MIMEMultipart
 
 SECRET_KEY = os.getenv("SECRET_KEY")
 ALGORITHM = "HS256"
-API_URL = "http://localhost:8000"
+API_URL = "http://localhost:8080"
 
 cities_decode = {
     1: 'Moscow',
