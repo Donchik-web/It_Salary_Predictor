@@ -10,3 +10,4 @@ gensim == 4.4.0
 bcrypt == 5.0.0
 aiogram == 3.26.0
 joblib == 1.4.2
+pandas == 2.3.3
