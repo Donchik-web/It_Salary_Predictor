@@ -10,6 +10,27 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 ALGORITHM = "HS256"
 API_URL = "http://localhost:8000"
 
+cities_decode = {
+    1: 'Moscow',
+    2: 'SPB',
+    3: 'Ekaterinburg',
+    4: 'Novosibirsk',
+    22: 'Vladivostok',
+    24: 'Volgograd',
+    26: 'Voronezh',
+    43: 'Kaluga',
+    53: 'Krasnodar',
+    54: 'Krasnoyarsk',
+    66: 'NN',
+    76: 'Rostov',
+    78: 'Samara',
+    79: 'Saratov',
+    99: 'Ufa',
+    112: 'Yaroslavl',
+    237: 'Sochi',
+    888: 'Kazan',
+}
+
 
 def connect_smtp_server(email: str, generate_code: int):
     """Подключение к серверу для отправки кода подтвержедния"""
